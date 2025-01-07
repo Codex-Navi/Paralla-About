@@ -41,8 +41,8 @@ function HeroSection() {
         <img src='/Img/Home-Images/moon.png' alt='' id='moon' ref={moonRef} />
         <img src='/Img/Home-Images/water.png' alt='' id=''/>
         
-        <img src='/Img/Home-Images/right-city.png' alt='' id=''/>
-        <img src='/Img/Home-Images/left-city.png' alt='' id=''/>
+        <img src='/Img/Home-Images/right-city1.png' alt='' id=''/>
+        <img src='/Img/Home-Images/left-city1.png' alt='' id=''/>
         <img src='/Img/Home-Images/train.png' alt='' id='train' ref={trainRef} />
         <img src='/Img/Home-Images/rail.png' alt='' id=''/>
 
