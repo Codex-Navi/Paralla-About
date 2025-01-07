@@ -1,0 +1,38 @@
+.parallax-home{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+ 
+}
+
+.parallax-home img{
+    position: absolute;
+    object-fit: cover;
+    pointer-events: none;
+    height: 100%;
+   
+}
+
+.helpdesk-logo{
+position: absolute;
+left: 20px;
+top: 80%;
+filter: drop-shadow(0 0 20px white);
+
+    
+}
+
+
+
+
+.parallax-home img#moon{
+    mix-blend-mode: screen;
+}
+
+.about img#desert-moon{
+    mix-blend-mode: screen;
+ 
+  
+}

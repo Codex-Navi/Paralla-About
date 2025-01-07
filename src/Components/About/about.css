@@ -1,0 +1,54 @@
+.about{
+    position: relative;
+    background: #1d002c;
+}
+
+.about img{
+    position: absolute;
+    z-index: 1000;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.about img.about-waterfall{
+    position: absolute;
+    top: -95px;
+}
+
+.about .info-box{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 50%;
+    z-index: 1003;
+    color: white;
+   
+}
+
+.about .info-box h2{
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.about .info-box p{
+    margin-bottom: 1.5rem;
+    margin-top: .5rem;
+    /* font-size: 30px; */
+}
+
+.btn{
+    background: #12f7ff;
+    color: #1d002c;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: .5rem 1rem;
+    transition: all .3s ease;
+    border: 2px solid #12f7ff;
+    font-weight: 500;
+}
+
+.btn:hover{
+    box-shadow: 0 0 1rem #12f7ff;
+    background: #1d002c;
+    color: #12f7ff;
+}
